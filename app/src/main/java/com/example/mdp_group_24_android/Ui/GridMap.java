@@ -113,11 +113,11 @@ public class GridMap extends View {
         initMap();
         blackPaint.setStyle(Paint.Style.FILL_AND_STROKE);
         obstacleColor.setColor(Color.BLACK);
-        robotColor.setColor(Color.GREEN);
+        robotColor.setColor(Color.BLACK);
         endColor.setColor(Color.RED);
         startColor.setColor(Color.CYAN);
         waypointColor.setColor(Color.YELLOW);
-        unexploredColor.setColor(Color.LTGRAY);
+        unexploredColor.setColor(Color.parseColor("#D4FDE7"));
         exploredColor.setColor(Color.WHITE);
         arrowColor.setColor(Color.BLACK);
         fastestPathColor.setColor(Color.MAGENTA);
